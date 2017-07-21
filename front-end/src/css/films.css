@@ -1,0 +1,51 @@
+@import url(reset.css);
+.playing {
+  width: 100%;
+  height: 100%; }
+  .playing .playinglist {
+    padding: 0 0.64rem 0 0.64rem; }
+    .playing .playinglist li {
+      width: 100%;
+      height: 5.33333rem;
+      border-bottom: dashed 1px #c9c9c9; }
+      .playing .playinglist li .information {
+        padding: 0.85333rem 0;
+        height: 3.49867rem; }
+        .playing .playinglist li .information .inf-left {
+          float: left; }
+          .playing .playinglist li .information .inf-left img {
+            width: 2.56rem;
+            height: 3.49867rem; }
+        .playing .playinglist li .information .inf-right {
+          width: 10.58133rem;
+          height: 3.49867rem;
+          float: right;
+          padding-left: 0.64rem; }
+          .playing .playinglist li .information .inf-right .inf-rightt {
+            width: 10.58133rem;
+            height: 1.28rem;
+            font-size: 0.59733rem;
+            line-height: 1.024rem;
+            color: #333333; }
+            .playing .playinglist li .information .inf-right .inf-rightt .pl {
+              float: left; }
+            .playing .playinglist li .information .inf-right .inf-rightt .pr {
+              float: right;
+              color: #fb8e38; }
+              .playing .playinglist li .information .inf-right .inf-rightt .pr i {
+                color: #dcdcdc;
+                font-size: 0.68267rem; }
+          .playing .playinglist li .information .inf-right .inf-rightc {
+            height: 0.85333rem;
+            color: #8e8e8e;
+            font-size: 0.512rem;
+            line-height: 0.768rem; }
+          .playing .playinglist li .information .inf-right .inf-rightb {
+            height: 1.70667rem;
+            font-size: 0.512rem;
+            line-height: 1.70667rem;
+            color: #8e8e8e; }
+            .playing .playinglist li .information .inf-right .inf-rightb span {
+              color: #9eb2c9; }
+
+/*# sourceMappingURL=films.css.map */

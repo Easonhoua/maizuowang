@@ -1,0 +1,26 @@
+@import url(reset.css);
+.menu {
+  padding: 2.13333rem 0 0 0; }
+  .menu .menulist {
+    overflow: hidden;
+    padding: 0 0.64rem; }
+    .menu .menulist li {
+      float: left;
+      width: 50%;
+      height: 1.87733rem;
+      box-sizing: border-box;
+      border-bottom: 1px solid #fd8224;
+      text-align: center;
+      font-size: 0.59733rem; }
+      .menu .menulist li a {
+        display: block;
+        width: 100%;
+        height: 1.87733rem;
+        color: #6a6a6a;
+        line-height: 1.87733rem;
+        text-decoration: none;
+        text-align: center; }
+      .menu .menulist li .z-act {
+        color: #fd8224;
+        border-bottom: 0.128rem solid #fd8224;
+        box-sizing: border-box; }

@@ -1,0 +1,103 @@
+@import "px2rem.scss";
+@import "reset.css";
+
+
+body,html {
+  width: 100%;
+  height: 100%;
+  background-color: #ebebeb;
+  .loginbox {
+    width: 100%;
+    height: 100%;
+    padding-top: px2rem(50);
+    .userinf{
+      width: 100%;
+      height: px2rem(152);
+      background-color: #303030;
+      padding: px2rem(36) px2rem(12) px2rem(24) 10%;
+      box-sizing: border-box;
+
+      .photo{
+        width: px2rem(92);
+        height: px2rem(92);
+        border-radius: 50%;
+        background-color: #ebebeb;
+        float: left;
+        margin-right: px2rem(14);
+        text-align: center;
+        line-height: px2rem(92);
+        font-size: px2rem(20);
+      }
+      .haha{
+        margin-top: px2rem(16);
+        float: left;color: #fff;
+        line-height: px2rem(24);
+        .usern{
+          font-size: px2rem(14);
+        }
+        .userid{
+          font-size: px2rem(12);
+
+        }
+        a{
+          font-size: px2rem(12);
+          color: #ffbd80;
+        }
+      }
+    }
+    .loginlist {
+      width: 100%;
+      height: 100%;
+      background-color: #ebebeb;
+
+
+      .same {
+        width: 100%;
+        height: px2rem(60);
+        margin: px2rem(14) 0;
+        background-color: #fff;
+
+        .inner {
+          height: px2rem(60);
+          padding: 0 px2rem(12);
+          line-height: px2rem(60);
+          font-size: px2rem(12);
+          .innerl {
+            float: left;
+          }
+          .innerr {
+            float: right;
+            i {
+              font-size: px2rem(12);
+            }
+          }
+        }
+
+      }
+      .some {
+        width: 100%;
+        height: px2rem(60);
+        background-color: #fff;
+
+        .inner {
+          width: 100%;
+          height: px2rem(60);
+          padding: 0 px2rem(12);
+          line-height: px2rem(60);
+          font-size: px2rem(12);
+          box-sizing: border-box;
+          border-bottom: px2rem(1) solid #ebebeb;
+          .innerl {
+            float: left;
+          }
+          .innerr {
+            float: right;
+            i {
+              font-size: px2rem(12);
+            }
+          }
+        }
+      }
+    }
+  }
+}

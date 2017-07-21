@@ -1,0 +1,72 @@
+@import "px2rem.scss";
+@import "reset.css";
+
+.playing{
+    width:100%;
+    height: 100%;
+    .playinglist{
+        padding:0 px2rem(15) 0 px2rem(15);
+
+        li{
+            width:100%;
+            height: px2rem(125);
+            border-bottom: dashed 1px #c9c9c9;
+            .information{
+                padding: px2rem(20) 0;
+                height: px2rem(82);
+
+                .inf-left{
+                    float: left;
+                    img{
+                        width: px2rem(60);
+                        height: px2rem(82);
+                    }
+                }
+                .inf-right{
+                    width: px2rem(248);
+                    height: px2rem(82);
+                    float: right;
+                    padding-left: px2rem(15);
+                    //width: px2rem(234);
+
+                    .inf-rightt{
+                        width: px2rem(248);
+                        height: px2rem(30);
+                        font-size: px2rem(14);
+                        line-height: px2rem(24);
+                        color: #333333;
+                        .pl{
+                            float: left;
+                        }
+                        .pr{
+                            float: right;
+                            color: #fb8e38;
+
+                            i{
+                                color: #dcdcdc;
+                                font-size: px2rem(16);
+                            }
+                        }
+                    }
+                    .inf-rightc{
+                        height: px2rem(20);
+                        color: #8e8e8e;
+                        font-size: px2rem(12);
+                        line-height: px2rem(18);
+                    }
+                    .inf-rightb{
+                        height: px2rem(40);
+                        font-size: px2rem(12);
+                        line-height: px2rem(40);
+                        color: #8e8e8e;
+
+                        span{
+                            color: #9eb2c9;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+@import url(reset.css);
+body, html {
+  width: 100%;
+  height: 100%;
+  background-color: #ebebeb; }
+  body .loginbox, html .loginbox {
+    width: 100%;
+    height: 100%;
+    padding-top: 2.13333rem; }
+    body .loginbox .userinf, html .loginbox .userinf {
+      width: 100%;
+      height: 6.48533rem;
+      background-color: #303030;
+      padding: 1.536rem 0.512rem 1.024rem 10%;
+      box-sizing: border-box; }
+      body .loginbox .userinf .photo, html .loginbox .userinf .photo {
+        width: 3.92533rem;
+        height: 3.92533rem;
+        border-radius: 50%;
+        background-color: #ebebeb;
+        float: left;
+        margin-right: 0.59733rem;
+        text-align: center;
+        line-height: 3.92533rem;
+        font-size: 0.85333rem; }
+      body .loginbox .userinf .haha, html .loginbox .userinf .haha {
+        margin-top: 0.68267rem;
+        float: left;
+        color: #fff;
+        line-height: 1.024rem; }
+        body .loginbox .userinf .haha .usern, html .loginbox .userinf .haha .usern {
+          font-size: 0.59733rem; }
+        body .loginbox .userinf .haha .userid, html .loginbox .userinf .haha .userid {
+          font-size: 0.512rem; }
+        body .loginbox .userinf .haha a, html .loginbox .userinf .haha a {
+          font-size: 0.512rem;
+          color: #ffbd80; }
+    body .loginbox .loginlist, html .loginbox .loginlist {
+      width: 100%;
+      height: 100%;
+      background-color: #ebebeb; }
+      body .loginbox .loginlist .same, html .loginbox .loginlist .same {
+        width: 100%;
+        height: 2.56rem;
+        margin: 0.59733rem 0;
+        background-color: #fff; }
+        body .loginbox .loginlist .same .inner, html .loginbox .loginlist .same .inner {
+          height: 2.56rem;
+          padding: 0 0.512rem;
+          line-height: 2.56rem;
+          font-size: 0.512rem; }
+          body .loginbox .loginlist .same .inner .innerl, html .loginbox .loginlist .same .inner .innerl {
+            float: left; }
+          body .loginbox .loginlist .same .inner .innerr, html .loginbox .loginlist .same .inner .innerr {
+            float: right; }
+            body .loginbox .loginlist .same .inner .innerr i, html .loginbox .loginlist .same .inner .innerr i {
+              font-size: 0.512rem; }
+      body .loginbox .loginlist .some, html .loginbox .loginlist .some {
+        width: 100%;
+        height: 2.56rem;
+        background-color: #fff; }
+        body .loginbox .loginlist .some .inner, html .loginbox .loginlist .some .inner {
+          width: 100%;
+          height: 2.56rem;
+          padding: 0 0.512rem;
+          line-height: 2.56rem;
+          font-size: 0.512rem;
+          box-sizing: border-box;
+          border-bottom: 0.04267rem solid #ebebeb; }
+          body .loginbox .loginlist .some .inner .innerl, html .loginbox .loginlist .some .inner .innerl {
+            float: left; }
+          body .loginbox .loginlist .some .inner .innerr, html .loginbox .loginlist .some .inner .innerr {
+            float: right; }
+            body .loginbox .loginlist .some .inner .innerr i, html .loginbox .loginlist .some .inner .innerr i {
+              font-size: 0.512rem; }

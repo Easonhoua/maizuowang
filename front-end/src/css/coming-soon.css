@@ -1,0 +1,48 @@
+@import url(reset.css);
+.playing {
+  width: 100%;
+  height: 100%; }
+  .playing ul {
+    padding: 0 0.64rem 0 0.64rem; }
+    .playing ul li {
+      width: 100%;
+      height: 5.33333rem;
+      border-bottom: dashed 1px #c9c9c9; }
+      .playing ul li .information {
+        padding: 0.85333rem 0;
+        height: 3.49867rem; }
+        .playing ul li .information .inf-left {
+          float: left; }
+          .playing ul li .information .inf-left img {
+            width: 2.56rem;
+            height: 3.49867rem; }
+        .playing ul li .information .inf-right {
+          width: 10.58133rem;
+          height: 3.49867rem;
+          float: right;
+          padding-left: 0.64rem; }
+          .playing ul li .information .inf-right .inf-rightt {
+            width: 10.58133rem;
+            height: 1.28rem;
+            font-size: 0.68267rem;
+            line-height: 1.024rem;
+            color: #333; }
+            .playing ul li .information .inf-right .inf-rightt .pl {
+              float: left; }
+            .playing ul li .information .inf-right .inf-rightt .pr {
+              float: right;
+              color: #c6c6c6; }
+              .playing ul li .information .inf-right .inf-rightt .pr i {
+                font-size: 0.68267rem; }
+          .playing ul li .information .inf-right .inf-rightc {
+            height: 0.85333rem;
+            color: #8e8e8e;
+            font-size: 0.512rem;
+            line-height: 0.768rem; }
+          .playing ul li .information .inf-right .inf-rightb {
+            height: 1.70667rem;
+            font-size: 0.512rem;
+            line-height: 1.70667rem;
+            color: #fb994c; }
+            .playing ul li .information .inf-right .inf-rightb span {
+              color: #fb994c; }

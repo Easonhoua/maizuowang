@@ -1,0 +1,40 @@
+@import "px2rem.scss";
+@import "reset.css";
+
+.menu{
+  padding: px2rem(50) 0 0 0;
+
+  .menulist {
+    overflow: hidden;
+    padding: 0 px2rem(15);
+    li{
+      float: left;
+      width: 50%;
+      height: px2rem(44);
+      box-sizing: border-box;
+      border-bottom: 1px solid #fd8224;
+      text-align: center;
+      font-size: px2rem(14);
+
+      a{
+        display: block;
+        width: 100%;
+        height: px2rem(44);
+        color: #6a6a6a;
+        line-height: px2rem(44);
+        text-decoration: none;
+        text-align: center;
+      }
+      .z-act{
+        color: #fd8224;
+        border-bottom: px2rem(3) solid #fd8224;
+        box-sizing: border-box;
+      }
+    }
+  }
+
+
+
+
+}
+

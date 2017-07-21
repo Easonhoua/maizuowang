@@ -1,0 +1,68 @@
+@import "px2rem.scss";
+@import "reset.css";
+
+
+body,html {
+  height: 100%;
+  background: #ebebeb !important;
+
+  .fliter {
+    width: 100%;
+    height: 100%;
+    background-color: #ebebeb;
+    padding-top: px2rem(50);
+    .photo {
+      width: 100%;
+      height: px2rem(210);
+      background-color: pink;
+    }
+    .synopsis {
+      width: 100%;
+      height: 100%;
+
+      .title {
+        margin: px2rem(16) auto;
+        font-size: px2rem(16);
+        border-left: px2rem(16) solid RGB(228, 200, 156);
+        padding-left: px2rem(4);
+      }
+      p {
+        height: px2rem(18);
+        overflow: hidden;
+        margin-bottom: px2rem(10);
+        padding-left: px2rem(20);
+        font-size: px2rem(12);
+        color: #333;
+      }
+
+    }
+    .btnbox {
+      margin: 0 auto;
+      p {
+        overflow: hidden;
+        margin-bottom: px2rem(10);
+        padding-left: px2rem(20);
+        padding-right: px2rem(20);
+        font-size: px2rem(12);
+        color: #333;
+        line-height: px2rem(18);
+      }
+      span {
+        display: block;
+        width: px2rem(158);
+        height: px2rem(36);
+        background-color: #fe8233;
+        color: #fff;
+        text-align: center;
+        line-height: px2rem(36);
+        font-size: px2rem(14);
+        border-radius: px2rem(36);
+        position: fixed;
+        bottom: px2rem(20);
+        left: px2rem(110);
+      }
+
+    }
+
+  }
+}

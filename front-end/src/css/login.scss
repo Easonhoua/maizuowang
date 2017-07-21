@@ -1,0 +1,123 @@
+@import "px2rem.scss";
+@import "reset.css";
+
+.formBox {
+  width: 100%;
+  height: 100%;
+  padding-top: px2rem(50);
+  form {
+    display: block;
+    width: 100%;
+    height: px2rem(200);
+    padding: 0 px2rem(31);
+    box-sizing: border-box;
+    margin-top: px2rem(30);
+    .user {
+      position: relative;
+      input {
+        display: block;
+        width: 100%;
+        height: px2rem(34);
+        padding: px2rem(6) px2rem(12);
+        font-size: px2rem(14);
+        line-height: px2rem(34);
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        box-sizing: border-box;
+        border: none;
+        ontline: none;
+        background-color: #f6f6f6;
+
+      }
+      .userBoxline {
+        display: block;
+        position: absolute;
+        top: px2rem(20);
+        height: px2rem(12);
+        width: 100%;
+        border: solid #c4c4c4;
+        border-width: 0 px2rem(1) px2rem(1) px2rem(1);
+        //background-color: red;
+      }
+      .yzm {
+        display: none;
+        position: absolute;
+        top: px2rem(-2);
+        right: px2rem(1);
+        width: px2rem(95);
+        height: px2rem(30);
+        background-color: #29a097;
+        color: #fff;
+        font-size: px2rem(12);
+        text-align: center;
+        line-height: px2rem(30);
+        border-radius: px2rem(3);
+        &:after{
+          content: '';
+          position: absolute;
+          top: px2rem(10);
+          left: px2rem(-10);
+          width: 0;
+          height: 0;
+          border-width: px2rem(5);
+          border-style: solid;
+          border-color: transparent #29a097 transparent transparent;
+        }
+      }
+    }
+
+
+    .password {
+      margin-top: px2rem(30);
+      position: relative;
+      input {
+        display: block;
+        width: 100%;
+        height: px2rem(34);
+        padding: px2rem(6) px2rem(12);
+        font-size: px2rem(14);
+        line-height: px2rem(34);
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        box-sizing: border-box;
+        border: none;
+        ontline: none;
+        background-color: #f6f6f6;
+      }
+      .pwdBoxline {
+        display: block;
+        position: absolute;
+        top: px2rem(20);
+        height: px2rem(12);
+        width: 100%;
+        border: solid #c4c4c4;
+        border-width: 0 px2rem(1) px2rem(1) px2rem(1);
+      }
+      .errortips {
+        display: block;
+        height: px2rem(16);
+        color: #fe8233;
+        font-size: px2rem(12);
+        padding-left: px2rem(8);
+      }
+    }
+
+
+    button{
+      display: block;
+      width: px2rem(163);
+      background-color: #fe8233;
+      color: #fff;
+      border: none;
+      border-radius: px2rem(36);
+      margin-top: px2rem(45);
+      padding: px2rem(8) px2rem(12);
+      font-size: px2rem(15);
+      outline: none;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+}

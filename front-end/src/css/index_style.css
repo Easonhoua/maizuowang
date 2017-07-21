@@ -1,0 +1,218 @@
+@import url(reset.css);
+body, html {
+  height: 100%; }
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 2.13333rem;
+  background-color: #282828;
+  line-height: 2.13333rem;
+  overflow: hidden;
+  z-index: 100; }
+  header .head-left {
+    float: left;
+    overflow: hidden; }
+    header .head-left .head-menu {
+      width: 2.048rem;
+      height: 2.13333rem;
+      border-right: 1px solid #2c2c2c;
+      text-align: center;
+      float: left; }
+      header .head-left .head-menu i {
+        color: #8b8b8b;
+        font-size: 0.768rem;
+        font-weight: 900; }
+    header .head-left .head-title {
+      float: left;
+      color: #efefef;
+      font-size: 0.59733rem;
+      margin-left: 0.512rem; }
+  header .head-right {
+    float: right;
+    color: #999999;
+    font-size: 0.59733rem;
+    margin-left: 6.82667rem;
+    overflow: hidden; }
+    header .head-right .address {
+      float: left; }
+      header .head-right .address i {
+        font-size: 0.768rem;
+        margin-right: 0.85333rem;
+        margin-left: 0.08533rem; }
+    header .head-right .selfCenter {
+      float: left;
+      margin-right: 0.59733rem; }
+      header .head-right .selfCenter i {
+        float: right;
+        font-size: 0.68267rem;
+        font-weight: 900; }
+
+.asidelist {
+  width: 70%;
+  height: 100%;
+  position: fixed;
+  top: 2.13333rem;
+  left: -70%;
+  z-index: 10000; }
+  .asidelist .asideul {
+    width: 100%;
+    height: 100%;
+    height: 42.66667rem;
+    background-color: #282828; }
+    .asidelist .asideul li {
+      width: 100%;
+      height: 2.13333rem;
+      border-bottom: 0.04267rem dashed #525252;
+      font-size: 0.59733rem;
+      line-height: 2.13333rem;
+      padding: 0 0.68267rem;
+      box-sizing: border-box; }
+      .asidelist .asideul li a {
+        display: block;
+        width: 100%;
+        height: 2.13333rem;
+        color: #9a9a9a; }
+        .asidelist .asideul li a span {
+          float: left; }
+        .asidelist .asideul li a i {
+          float: right;
+          font-size: 0.59733rem; }
+
+.gotop {
+  position: fixed;
+  left: 13.65333rem;
+  top: 26.02667rem;
+  display: none; }
+  .gotop span {
+    display: block;
+    width: 2.048rem;
+    height: 2.048rem;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    line-height: 2.048rem; }
+    .gotop span i {
+      color: #fff;
+      font-size: 1.024rem; }
+
+.am-wingblank.am-wingblank-lg {
+  margin: 0 !important;
+  padding-top: 2.13333rem; }
+  .am-wingblank.am-wingblank-lg .my-carousel {
+    width: 100%;
+    background: #fff; }
+    .am-wingblank.am-wingblank-lg .my-carousel a {
+      display: inline-block;
+      width: 100%;
+      margin: 0;
+      padding: 0; }
+      .am-wingblank.am-wingblank-lg .my-carousel a img {
+        width: 100%;
+        vertical-align: top; }
+    .am-wingblank.am-wingblank-lg .my-carousel .v-item {
+      height: 0.72rem;
+      line-height: 0.72rem;
+      padding-left: 0.2rem; }
+
+.allmovie {
+  height: 100%;
+  background-color: #ebebeb; }
+  .allmovie .hotmovie {
+    padding-top: 0.768rem; }
+    .allmovie .hotmovie ul li {
+      margin: 0 0.72533rem 0.72533rem 0.72533rem; }
+      .allmovie .hotmovie ul li .lit img {
+        width: 100%;
+        height: 7.936rem; }
+      .allmovie .hotmovie ul li .lib {
+        width: 100%;
+        height: 2.13333rem;
+        padding: 0.59733rem 0.512rem 0 0.68267rem;
+        box-sizing: border-box;
+        background-color: #f9f9f9; }
+        .allmovie .hotmovie ul li .lib .libleft {
+          float: left; }
+          .allmovie .hotmovie ul li .lib .libleft strong {
+            font-size: 0.512rem;
+            color: #333333; }
+          .allmovie .hotmovie ul li .lib .libleft p {
+            font-size: 0.512rem;
+            color: #9a9a9a; }
+        .allmovie .hotmovie ul li .lib .libright {
+          float: right;
+          font-size: 0.768rem;
+          color: #f7977a; }
+    .allmovie .hotmovie .morehotmovie {
+      width: 6.61333rem;
+      height: 1.28rem;
+      border: 1px solid #bcbcbc;
+      border-radius: 0.64rem;
+      text-align: center;
+      line-height: 1.28rem;
+      font-size: 0.512rem;
+      margin-left: 4.52267rem; }
+  .allmovie .coming {
+    height: 100%; }
+    .allmovie .coming .coming-title {
+      width: 100%;
+      height: 3.66933rem;
+      position: relative; }
+      .allmovie .coming .coming-title .titleword {
+        display: block;
+        width: 2.73067rem;
+        height: 0.85333rem;
+        background-color: #a7a7a7;
+        color: #fff;
+        text-align: center;
+        line-height: 0.85333rem;
+        border-radius: 0.256rem;
+        font-size: 0.512rem;
+        position: absolute;
+        top: 1.19467rem;
+        left: 6.4rem; }
+      .allmovie .coming .coming-title .xian {
+        display: block;
+        width: 100%;
+        height: 0.04267rem;
+        border: 1px solid #a7a7a7;
+        position: absolute;
+        left: 0;
+        top: 1.62133rem;
+        z-index: 10; }
+    .allmovie .coming .comingmovie {
+      padding-top: 0.512rem; }
+      .allmovie .coming .comingmovie ul li {
+        margin: 0 0.72533rem 0.72533rem 0.72533rem; }
+        .allmovie .coming .comingmovie ul li .comingmoviet img {
+          width: 14.50667rem;
+          height: 7.936rem; }
+        .allmovie .coming .comingmovie ul li .comingmovieb {
+          width: 14.50667rem;
+          height: 1.45067rem;
+          padding: 0.42667rem 0.512rem 0 0.68267rem;
+          box-sizing: border-box;
+          background-color: #f9f9f9; }
+          .allmovie .coming .comingmovie ul li .comingmovieb .coming-left {
+            float: left;
+            font-size: 0.512rem;
+            color: #333333; }
+          .allmovie .coming .comingmovie ul li .comingmovieb .coming-right {
+            float: right;
+            font-size: 0.512rem;
+            color: #f5a27d; }
+    .allmovie .coming .comingmore {
+      width: 100%;
+      height: 2.13333rem; }
+      .allmovie .coming .comingmore span {
+        display: block;
+        width: 6.61333rem;
+        height: 1.28rem;
+        border: 1px solid #bcbcbc;
+        border-radius: 0.64rem;
+        text-align: center;
+        line-height: 1.28rem;
+        font-size: 0.512rem;
+        margin-left: 4.52267rem; }
+
+/*# sourceMappingURL=index_style.css.map */
